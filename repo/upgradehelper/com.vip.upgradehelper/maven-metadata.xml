@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>upgradehelper</groupId>
+  <artifactId>com.vip.upgradehelper</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170601075040</lastUpdated>
+  </versioning>
+</metadata>

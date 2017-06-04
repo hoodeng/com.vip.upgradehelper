@@ -1,0 +1,9 @@
+rootProject.name = 'com.vip.upgradehelper'
+include 'testplugin'
+include 'testplugin'
+include 'buildSrc'
+include 'buildsrc'
+findProject(':buildsrc')?.name = 'buildSrc'
+include 'buildsrc'
+include 'Sample'
+

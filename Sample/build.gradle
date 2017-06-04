@@ -1,0 +1,92 @@
+import org.gradle.api.Plugin
+import org.gradle.api.Project
+import org.gradle.internal.reflect.DirectInstantiator
+import org.gradle.internal.reflect.Instantiator
+
+class HelloPlugin implements Plugin<Project> {
+    @Override
+    void apply(Project project) {
+        project.extensions.create("student", Student, org.gradle.internal.reflect.DirectInstantiator.INSTANCE)
+    }
+}
+
+class Student {
+    String name;
+    int age;
+    String compileVersion;
+
+    final Flavor flavor;
+    final NamedDomainObjectContainer<BuildType> buildTypes;
+
+    public Student(Instantiator instantiator){
+        flavor = instantiator.newInstance(Flavor.class);
+
+    }
+
+    public void compileVersion(String version) {
+        this.compileVersion = version;
+    }
+
+    public void defaultFravor(Action<Flavor> action) {
+        action.execute(flavor)
+    }
+
+    public void buildType(Action<? super NamedDomainObjectContainer<BuildType>> action){
+        action.execute()
+    }
+
+}
+
+class Flavor implements Serializable {
+    public int minSdkVersion;
+    public int maxSdkVersion;
+
+    public void minSdkVersion(int minSdkVersion) {
+        this.minSdkVersion = minSdkVersion;
+    }
+
+    public void maxSdkVersion(int maxSdkVersion) {
+        this.maxSdkVersion = maxSdkVersion;
+    }
+}
+
+class BuildType{
+    public int type;
+}
+
+apply plugin: HelloPlugin
+
+student {
+    name = 'wang wu';
+    age = 30;
+
+    compileVersion '1.0.1'
+
+    defaultFravor {
+        minSdkVersion 14;
+        maxSdkVersion 22;
+    }
+}
+
+class PrintInfo extends DefaultTask {
+    @TaskAction
+    public void printInfo() {
+        println project.student.name;
+        println project.student.age;
+
+        println project.student.compileVersion
+
+        Flavor flavor1 = project.student.flavor;
+//        assert flavor1 == null;
+        println flavor1.maxSdkVersion;
+        println flavor1.minSdkVersion;
+
+    }
+}
+
+task printinfo(type: PrintInfo)
+
+task info << {
+    println project.student.name;
+    println project.student.age;
+}

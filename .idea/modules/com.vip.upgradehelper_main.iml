@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="com.vip.upgradehelper:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="upgradehelper" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: org.codehaus.groovy:groovy-all:2.3.11" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../TestJar/out/artifacts/TestJar_jar/TestJar.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/antlr/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/application/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/buildDashboard/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/clientModuleDependencies/shared/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/codeQuality/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/compositeBuilds/basic/my-app/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/compositeBuilds/basic/my-utils/number-utils/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/compositeBuilds/basic/my-utils/string-utils/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/compositeBuilds/declared-substitution/anonymous-library/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/compositeBuilds/declared-substitution/my-app/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/compositeBuilds/hierarchical-multirepo/multirepo-app/modules/number-utils/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/compositeBuilds/hierarchical-multirepo/multirepo-app/modules/string-utils/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/compositeBuilds/hierarchical-multirepo/multirepo-app/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/compositeBuilds/plugin-dev/greeting-plugin/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/ear/earCustomized/war/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/ear/earWithWar/war/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/groovy/crossCompilation/src/main/groovy" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/groovy/crossCompilation/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/groovy/mixedJavaAndGroovy/src/main/groovy" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/groovy/mixedJavaAndGroovy/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/groovy/multiproject/groovycDetector/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/groovy/multiproject/testproject/src/main/groovy" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/groovy/multiproject/testproject/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/groovy/multiproject/testproject/src/test/groovy" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/groovy/multiproject/testproject/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/ivypublish/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/ivypublish/subproject/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java-library/multiproject/app/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java-library/multiproject/core/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java-library/multiproject/utils/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java-library/quickstart/src/main/java/org/gradle" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java-library/with-groovy/a/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java-library/with-groovy/b/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/apiAndImpl/src/api/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/apiAndImpl/src/impl/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/apiAndImpl/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/apt/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/base/prod/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/base/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/crossCompilation/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/crossCompilation/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/customizedLayout/src/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/customizedLayout/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/multiproject/api/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/multiproject/buildSrc/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/multiproject/buildSrc/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/multiproject/services/shared/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/multiproject/services/webservice/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/multiproject/services/webservice/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/multiproject/shared/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/multiproject/shared/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/onlyif/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/onlyif/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/quickstart/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/quickstart/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/testListener/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/withIntegrationTests/src/integration-test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/withIntegrationTests/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/java/withIntegrationTests/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaGradlePlugin/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/apispec-support/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/apispec/src/brokenclient/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/apispec/src/client/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/apispec/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/multiplecomponents/src/client/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/multiplecomponents/src/collections/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/multiplecomponents/src/commons/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/multiplecomponents/src/core/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/multiplecomponents/src/server/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/multiplecomponents/src/verifier/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/multiplecomponents/util/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/quickstart/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/targetplatforms/core/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/targetplatforms/core/src/main/java6" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/targetplatforms/server/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/testing-junit-component-under-test/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/testing-junit-component-under-test/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/javaLibraryPlugin/testing-junit-standalone/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/jvmComponents/scala/src/main/scala" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/maven-publish/javaProject/subproject/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/maven-publish/quickstart/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/maven/pomGeneration/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/maven/quickstart/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/play/advanced/app" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/play/multiproject/modules/util/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/play/sourcesets/additional/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/play/sourcesets/extra/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/plugins/publishing/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/scala/crossCompilation/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/scala/crossCompilation/src/main/scala" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/scala/mixedJavaAndScala/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/scala/mixedJavaAndScala/src/main/scala" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/signing/conditional/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/signing/maven/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testKit/gradleRunner/junitQuickstart/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/filtering/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/jacoco/application/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/jacoco/quickstart/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/jacoco/quickstart/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/junit/categories/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/testReport/core/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/testReport/util/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/testng/groupbyinstances/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/testng/groups/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/testng/java-passing/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/testng/java-passing/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/testng/preserveorder/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/testng/suitexmlbuilder/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/testing/testng/suitexmlbuilder/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/toolingApi/customModel/plugin/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/toolingApi/customModel/tooling/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/toolingApi/eclipse/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/toolingApi/idea/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/toolingApi/model/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/toolingApi/runBuild/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/ant/useExternalAntTaskWithConfig/src" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/java/sourceSets/src/intTest/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/java/api/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/java/api/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/java/services/personService/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/java/services/personService/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/java/shared/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/java/shared/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/javaWithCustomConf/api/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/javaWithCustomConf/shared/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/webDist/date/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/multiproject/dependencies/webDist/hello/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/tasks/incrementalBuild/customTaskClass/buildSrc/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/tasks/incrementalBuild/incrementalBuildAdvanced/buildSrc/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/tasks/incrementalBuild/incrementalBuildAdvanced/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/userguide/tasks/incrementalBuild/incrementalBuildAdvanced/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/webApplication/customized/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/webApplication/customized/src/test/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/samples/webApplication/quickstart/src/main/java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/announce" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/antlr" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/base-services" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/base-services-groovy" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/build-cache-http" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/build-comparison" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/build-init" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/cli" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/code-quality" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/composite-builds" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/core" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/dependency-management" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/diagnostics" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/ear" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/ide" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/ide-native" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/ide-play" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/installation-beacon" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/internal-android-performance-testing" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/internal-integ-testing" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/internal-performance-testing" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/internal-testing" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/ivy" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/ivy/org/gradle/api/publish/ivy/plugins" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/ivy/org/gradle/api/publish/ivy/tasks" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/jacoco" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/javascript" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/jetty" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/jvm-services" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/language-groovy" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/language-java" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/language-jvm" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/language-native" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/language-scala" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/launcher" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/logging" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/maven" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/messaging" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/model-core" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/model-groovy" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/native" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/open-api" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/osgi" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/platform-base" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/platform-jvm" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/platform-native" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/platform-play" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/plugin-development" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/plugin-use" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/plugins" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/process-services" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/publish" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/publish/org/gradle/api/publish/plugins" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/reporting" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/resources" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/resources-http" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/resources-s3" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/resources-sftp" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/scala" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/signing" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/test-kit" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/testing-base" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/testing-jvm" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/testing-native" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/tooling-api" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/tooling-api-builders" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/ui" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/workers" />
+          <root url="file://$USER_HOME$/gradle source/gradle-3.5/src/wrapper" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/gradle source/gradle-3.5/lib" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

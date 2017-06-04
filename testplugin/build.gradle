@@ -1,0 +1,16 @@
+
+
+apply plugin: 'com.vip.upgradehelper.plugin'
+
+buildscript {
+    repositories {
+        maven {
+            url uri('../repo')
+        }
+    }
+    dependencies {
+        classpath group: 'upgradehelper',
+                name: 'com.vip.upgradehelper',
+                version: '1.0-SNAPSHOT'
+    }
+}
